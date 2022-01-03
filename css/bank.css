@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+.carousel-inner .active{
+	outline: none;
+	border: none;
+}
+
+.primary-nav{
+	background-color: #000!important;
+	border-bottom: 1px solid orange;
+}
+/* for toggle in nav-button */
+@media(min-width: 990px){
+	.toggler-icons{
+		display: none;
+	}
+
+	
+}
+
+
+/*iphoneSE/58 */
+@media(min-width: 320px){
+	.toggler-icons{
+		margin-left: auto;
+	}
+	.navbar-brand{
+		margin-bottom: -30px;
+	}
+}
+
+/*For motoG4 */
+@media(min-width:360px){
+	.toggler-icons{
+		margin-left: 313px;
+	}
+}
+
+
+/*Galaxy fold*/
+@media(min-width: 280px){
+	.toggler-icons{
+		margin-left: auto;
+	}
+	.navbar-brand{
+		margin-bottom: -30px;
+	}
+}
+
+
+/*Iphone X */
+@media(min-width:375px){
+	.navbar-brand{
+		margin-top: -30px;
+	}
+}
+
+
+.nav-link:hover{
+	background-color:rgb(245, 168, 27);
+	border:none;
+	border-radius: 5px;
+	box-shadow: 0 0 50px orange, 0 0 50px orange, 0 0 50px orange;
+}
+
+.active{
+	
+	border: 1px solid white;
+	border-radius: 5px;
+	border-color:aqua;
+}
+
+.toggler,.cross-icon{
+	cursor: pointer;
+}
+
+.logout a{
+	text-decoration: none;
+	color:white;
+}
+
+.fa-log{
+	font-family:sans-serif;
+}
+
+
+
+
