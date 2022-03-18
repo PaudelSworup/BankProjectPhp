@@ -1,4 +1,4 @@
-# BankProjectPhp
+# A simple part of Banking Management System in PHP
 Banking management system is built using core php and mysql
 <hr>
 
